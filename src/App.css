@@ -95,13 +95,13 @@ header p{
   text-align: center;
   margin-bottom: 32px;
 }
-#temp-valor{
+#temperatura-valor{
   font-size: 3.7em;
   font-weight: bold;
   color: #2563eb;
   margin-bottom: 8px;
 }
-#temp-sens{
+#temperatura-sens{
   color: #4b5563;
 }
 #detalhes-box{
@@ -109,33 +109,42 @@ header p{
   grid-template-columns: repeat(3,1fr);
   gap: 16px;
 }
-.detal-item{
+.detalhes-item{
   background: #ccc;
   padding: 16px;
   border-radius: 8px;
   text-align: center;
 }
-.detal-icone{
+.detalhes-icone{
   display: flex;
   justify-content: center;
   margin-bottom: 8px;
 }
-.detal-texto{
+.detalhes-texto{
   font-size: 0.8em;
   color: #444;
   margin-bottom: 4px;
 }
-.detal-valor{
+.detalhes-valor{
   font-weight: bold;
   color: #222;
 }
 
 /* RESPONSIVO */
 @media (max-width: 768px){
+  .content-wrapper{
+    min-width: 100%;
+  }
+  .busca-container input{
+    width: 80%;
+  }
+  .detalhes.box{
+    grid-template-columns: 1fr;
+  }
   #detalhes-box{
     grid-template-columns: 1fr;
   }
-  #temp-valor{
+  #temperatura-valor{
     font-size: 3em;
   }
   header h1{

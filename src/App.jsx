@@ -76,46 +76,46 @@ function App() {
 
             {/* Temperatura principal */}
             <div id="temperatura-box">
-              <div id="temp-valor">21°C</div>
-              <div id="temp-sens">
+              <div id="temperatura-valor">21°C</div>
+              <div id="temperatura-sens">
                 Sensação Térmica: 21°C
               </div>
             </div>
 
             <div id="detalhes-box">
               
-              <div className="detal-item">{/* Inicio Temperatura */}
-                <div className="detal-icone">
+              <div className="detalhes-item">{/* Inicio Temperatura */}
+                <div className="detalhes-icone">
                   <Thermometer />
                 </div>
-                <p className="detal-texto">
+                <p className="detalhes-texto">
                   Min/Max
                 </p>
-                <p className="detal-valor">
+                <p className="detalhes-valor">
                   23ºC/27ºC
                 </p>
               </div>{/* Fim Temperatura */}
 
-              <div className="detal-item">{/* Inicio Umidade */}
-                <div className="detal-icone">
+              <div className="detalhes-item">{/* Inicio Umidade */}
+                <div className="detalhes-icone">
                   <Droplet />
                 </div>
-                <p className="detal-texto">
+                <p className="detalhes-texto">
                   Umidade
                 </p>
-                <p className="detal-valor">
+                <p className="detalhes-valor">
                   12%
                 </p>
               </div>{/* Fim Umidade */}
 
-              <div className="detal-item">{/* Inicio Vento */}
-                <div className="detal-icone">
+              <div className="detalhes-item">{/* Inicio Vento */}
+                <div className="detalhes-icone">
                   <Wind />
                 </div>
-                <p className="detal-texto">
+                <p className="detalhes-texto">
                   Vento
                 </p>
-                <p className="detal-valor">
+                <p className="detalhes-valor">
                   12 km/h
                 </p>
               </div>{/* Fim Vento */}
